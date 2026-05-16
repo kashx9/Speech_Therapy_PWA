@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>TopSpeech Daily Lesson</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero" aria-labelledby="lesson-title">
+      <div class="hero-badge">Daily lesson</div>
+      <h1 id="lesson-title">R Practice Session</h1>
+      <p>Complete 4 warm, focused exercises designed for daily speech growth.</p>
+    </header>
+
+    <main class="stage" id="stage">
+      <section class="screen screen-start active" id="start-screen">
+        <div class="card start-card">
+          <h2>Welcome back!</h2>
+          <p>Today’s lesson is short, guided, and built to help your R sound feel stronger.</p>
+          <button class="primary-btn" id="start-button">Start lesson</button>
+          <p class="note">Innovation: retries are counted as persistence wins, not failures.</p>
+        </div>
+      </section>
+
+      <section class="screen" id="lesson-screen" aria-live="polite">
+        <div class="progress-panel">
+          <div class="progress-label">Exercise <span id="step-number">1</span> of 4</div>
+          <div class="progress-track" aria-hidden="true">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+          <div class="progress-meter" id="progress-meter"></div>
+        </div>
+
+        <div class="lesson-card" id="lesson-card"></div>
+
+        <div class="feedback-panel" id="feedback-panel" hidden></div>
+      </section>
+
+      <section class="screen" id="end-screen">
+        <div class="card end-card">
+          <span class="end-badge">Lesson complete</span>
+          <h2>You finished today’s session</h2>
+          <p id="end-copy">Great work on staying with the practice.</p>
+          <div class="reward-row">
+            <div class="reward-block">
+              <span>+45 XP</span>
+              <p>Daily progress</p>
+            </div>
+            <div class="reward-block">
+              <span id="retry-count">0</span>
+              <p>Retry wins</p>
+            </div>
+          </div>
+          <button class="primary-btn" id="restart-button">Try another lesson</button>
+          <p class="note">Every retry counts as resilience — you chose practice over skipping.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

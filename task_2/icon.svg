@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" role="img" aria-label="TopSpeech icon">
+  <rect width="192" height="192" rx="40" fill="#9f5bff"/>
+  <path d="M60 104c0-24 24-32 40-32s40 8 40 32-24 32-40 32-40-8-40-32Z" fill="#fff" opacity="0.18"/>
+  <path d="M80 64c0-8 8-16 16-16h24c8 0 16 8 16 16v64c0 8-8 16-16 16H96c-8 0-16-8-16-16V64Z" fill="#fff"/>
+  <path d="M88 84h16v20H88z" fill="#9f5bff"/>
+  <path d="M112 92h8v12h-8z" fill="#9f5bff"/>
+</svg>

@@ -1,0 +1,17 @@
+1. Keep → Scoped progress visibility
+Duolingo's per-lesson progress bar works. A user should always know "3 of 5 exercises done." Keep this. But make it calmer no aggressive countdown timers, no heart-loss anxiety.
+
+2. Keep → Wrong answer feedback
+Duolingo's "wrong answer = try again" model works for vocabulary. For speech therapy, getting an R-sound wrong isn't a failure it's the whole point of being here.Replace penalties with encouragement and a retry ("Nice try — let's hear it one more time").
+
+3. Change → Correctness model
+Duolingo has binary right/wrong. Speech has a spectrum. Your feedback should reflect that "Good shape, try a bit more tongue pressure"  a red X. Even if you're mocking the AI evaluation, the tone of feedback matters enormously.
+
+4. Keep → Streak + return motivation
+The daily streak is genuinely effective behavioral science. Keep it — but frame it around consistency ("12 days of practice") rather than competition. No leagues, no XP leaderboards. This isn't a game, it's therapy.
+
+5. Change → Emotional register of the end screen
+Duolingo's end screen is a party. For someone who just spent 10 minutes working on a speech impediment they've been self-conscious about their whole life, a screaming owl with confetti might feel patronizing. Aim for warm + affirming for eg: "You showed up today. That's what matters." Small celebration, big dignity.
+
+Final Takeaway:
+Duolingo optimizes for engagement. TopSpeech should optimize for courage because the user is practicing something they've felt ashamed of, and every attempt is an act of bravery.
