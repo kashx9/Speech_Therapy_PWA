@@ -24,6 +24,14 @@ This repository contains a progressive web app (PWA) prototype for a daily lesso
 - Retry counter that treats retries as persistence wins
 - Lesson completion screen with reward messaging
 
+## Design choices
+
+- **Warm and clinical tone**: The UI uses soft gradients, rounded cards, and calm text to balance health credibility with approachable interaction.
+- **Focused progress flow**: A clear step count and progress meter help users know where they are without adding pressure.
+- **Positive retry framing**: Retry actions are counted as resilience wins rather than failures, supporting the emotional context of real speech practice.
+- **Mixed exercise types**: The lesson includes listening, word selection, mirror-mode guidance, and phrase reinforcement to keep the session varied and useful.
+- **Minimal backend dependency**: Static content and a service worker keep the prototype lightweight and easy to run while still supporting PWA behavior.
+
 ## How to run
 
 ### Option 1: Use Live Server in VS Code
